@@ -1,0 +1,243 @@
+img {
+    width: 80%;
+
+}
+
+.row-center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    text-align: center;
+    text-decoration: double;
+    color: white;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #716f78,
+        0 0 20px #716f78;
+}
+
+
+
+.card {
+    height: 100%;
+}
+
+.card-title {
+    border-bottom: 1px solid rgb(65, 62, 59);
+    padding: 10px;
+    background-color: #756d6d;
+    color: aliceblue;
+    font-family: "Caveat", cursive;
+
+
+}
+
+.btn-secondary {
+    background-color: #756d6d;
+}
+
+p {
+    font-family: "Comfortaa", sans-serif;
+    text-shadow: hsl(0, 0%, 100%) color(srgb rgb(255, 255, 255) rgb(251, 255, 228) rgb(215, 215, 255)); 
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url(fon-1.png)
+}
+
+.bg-suzet {
+    background-color: #ededed48;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.bg-suzet h2 {
+    font-family: 'Great Vibes', serif;
+    letter-spacing: 5px;
+    text-decoration: double;
+    color: white;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #716f78,
+        0 0 20px #716f78;
+    margin-top: 30px;
+}
+
+.bg-suzet p {
+    color: #e3dfdf;
+    font-family: Oswald, serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+
+    border-bottom: 13px solid #2a2929;
+    padding-bottom: 20px;
+
+}
+
+figcaption {
+    color: hsl(0, 0%, 100%);
+    font-family: Caveat, sans-serif;
+    font-size: 1.5em;
+}
+
+
+
+
+/* ------------ */
+/* хедер з ШІ */
+/* Базове скидання для демонстрації */
+
+/* Стилі хедера */
+.site-header {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    /* М'який градієнт вгорі */
+    box-sizing: border-box;
+}
+
+.header-container {
+    text-align: center;
+    /* Центрування тексту */
+}
+
+/* Назва сайту */
+.site-title {
+    margin: 0 0 10px 0;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e0e0e0;
+    /* Легке містичне світіння тексту */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(0, 123, 255, 0.2);
+}
+
+/* Слоган */
+.site-tagline {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #8a8a8a;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.434));
+
+}
+
+.nav-link {
+    color: #c4c4c4;
+}
+
+.site-subtitle {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ff3b30;
+    /* Можна зробити акцентним червоним або залишити сірим */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.facts-header {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #e0e0e0;
+    /* Легке містичне світіння тексту */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(0, 123, 255, 0.2);
+    font-family: "Comfortaa", sans-serif !important;
+    text-align: center;
+
+}
+
+.facts {
+    margin: 0 0 5px 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+
+.bg-facts {
+    background-color: #ededed48;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.card-fact{
+    background-color: #afafaf6d;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.teenwolf-footer {
+    background: linear-gradient(
+        to top,
+        #050505,
+        #111111,
+        #1a1a1a
+    );
+    color: #d8d8d8;
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #15093628;
+    box-shadow: 0 -5px 20px rgba(84, 6, 6, 0.5);
+}
+
+.footer-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        circle at center,
+        rgba(120, 0, 0, 0.223),
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.teenwolf-footer h2 {
+    font-size: 36px;
+    color: #6f121298;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgba(149, 15, 15, 0.7);
+}
+
+.teenwolf-footer p {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-bottom: 25px;
+}
+.copyright {
+    font-size: 13px;
+    opacity: 0.6;
+}
+h2{
+
+ font-family: "Caveat", cursive;
+
+}
